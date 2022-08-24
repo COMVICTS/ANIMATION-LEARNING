@@ -1,0 +1,52 @@
+.overlay-top{
+    
+    height: 51vh;
+    width: 33.33333%;
+    background-color: black;
+    
+
+    position: absolute;
+    
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.one{
+   left: 0%;
+
+}
+
+.two{
+   
+    left: 33.333333%;
+
+}
+
+.three{
+
+    left: 66.666666%;
+
+}
+
+.overlay-bottom{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    
+    bottom: 0%;
+    position: absolute;
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.four{
+    top: 50%;
+    left: 0%;
+
+}
+
+
+.overlay{
+    padding: 0;
+    margin: 0;
+}
